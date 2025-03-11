@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-day_df = pd.read_csv(r"E:\TUGAS\submission\dashboard\day.csv")
-hour_df = pd.read_csv(r"E:\TUGAS\submission\dashboard\hour.csv")
+day_df = pd.read_csv("day.csv")
+hour_df = pd.read_csv("hour.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 # Sidebar filter
